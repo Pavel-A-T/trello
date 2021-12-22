@@ -41,7 +41,7 @@
 
 .add-tasks-input {
     border: solid 1px black;
-    background-color: honeydew;
+    background-color: white;
     margin: 1px;
     padding: 0;
     width: 99%;
@@ -89,6 +89,10 @@
     resize: none;
 }
 
+.grab {
+    cursor: grabbing;
+}
+
 .close {
     position:absolute;
     top:0;
@@ -116,20 +120,6 @@
     font-weight: bold;
     border: none;
     background-color: honeydew;
-}
-.btn {
-    color: #fff;
-    background-color: rgb(125, 100, 125);
-    border: 5px solid rgb(125, 100, 125);
-    border-radius: 5px;
-    width: 250px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-top: 50%;
-}
-
-.btn:focus {
-    border-color:red;
 }
 
 .hidden {

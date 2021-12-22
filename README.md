@@ -3,4 +3,4 @@
 
 Бейдж - [![Build status](https://ci.appveyor.com/api/projects/status/0l3t4h8ng62m60g3/branch/master?svg=true)](https://ci.appveyor.com/project/Pavel-A-T/trello/branch/master)
 
-Сборка -
+Сборка -  https://pavel-a-t.github.io/trello/  
