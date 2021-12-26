@@ -1,7 +1,7 @@
 export function save() {
   const container = document.body.querySelector('.container');
   const html = container.innerHTML;
-  window.localStorage.setItem('state', JSON.stringify(html));
+  localStorage.setItem('state', JSON.stringify(html));
 }
 
 export function load() {

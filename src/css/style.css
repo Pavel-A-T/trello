@@ -78,6 +78,7 @@
 }
 
 .text {
+    position: relative;
     display: flex;
     margin: 2px;
     padding: 2px;
@@ -126,4 +127,18 @@
     display: none;
 }
 
+.another {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    right: 0px;
+    top:0;
+    border:none;
+    cursor: pointer;
+    color: red;
+}
 
+.top-change {
+    margin-top: 59px;
+}
